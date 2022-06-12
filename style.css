@@ -1,0 +1,78 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+body {
+    background: linear-gradient(90deg, #317A86 0%, #3E7C59 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    padding: 2rem;
+    text-align: center;
+    color: #F2AE30;
+    text-shadow: 4px 4px 10px #024959;
+}
+div {
+    width: 90%;
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+.inp {
+    padding: 0.5rem;
+    width: 75%;
+    margin-right: 10px;
+    outline: none;
+    color: #593E25;
+    border-color: #61727C;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px #024959;
+}
+.btn {
+    width: 15%;
+    padding: 0.7rem;
+    background-color: #317A86;
+    color: #593E25;
+    border-radius: 10px;
+    border:none;
+    margin-right: 1rem;
+    cursor: pointer;
+    box-shadow: 2px 2px 8px #024959;
+}
+.btn:hover {
+    opacity: 0.7;
+}
+ul {
+    width: 80%;
+    margin-top: 1.5rem;
+}
+ul li {
+    color: darkslategrey;
+    background-color: #5D8679;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    box-shadow: 2px 2px 8px #024959;
+}
+li i {
+    padding: 1rem;
+    color: white;
+    cursor: pointer;
+}
+li i:hover {
+    opacity: 0.3;
+}
+li p {
+    flex: auto;
+    padding: 0.2rem;
+}
+li .cizik {
+    text-decoration: line-through;
+}
